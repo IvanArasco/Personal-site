@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: $font-size;
+  font-family: $font-family-primary;
+
+  h1 {
+    font-size: $title-size;
+  }
+
+  h2 {
+    font-size: $title-size * 0.85;
+  }
+
+  h3 {
+    font-size: $title-size * 0.65;
+  }
+
+  .menu {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem;
+
+      li {
+        position: relative;
+
+        a {
+          text-decoration: none;
+          padding: 8px 12px;
+          display: inline-block;
+          color: black;
+        }
+
+        &.has-dropdown {
+          &:hover .dropdown-parent {
+            display: block;
+          }
+        }
+
+        .dropdown-parent {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          padding: 12px 0;
+          border-radius: 4px;
+          z-index: 1;
+
+          .dropdown-child {
+            padding: 8px 16px;
+            white-space: nowrap;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #eee;
+            }
+          }
+        }
+      }
+    }
+  }
+}
