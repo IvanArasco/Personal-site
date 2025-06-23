@@ -7,12 +7,14 @@ import MuiAccordion from './components/muiAccordion';
 import Drawer from './components/muiDrawer';
 import MenuDropdown from './components/nav-menu-dropdown';
 import InfoBlock from "./components/InfoBlock";
+import Header from "./components/header";
 
 function App() {
   return (
     <>
-
       <MenuDropdown/>
+      
+      <Header />
 
       <Drawer/>
 

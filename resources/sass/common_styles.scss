@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+body {
+  font-size: $font-size;
+  font-family: $font-family-primary;
+
+  h1 {
+    font-size: $title-size;
+  }
+
+  h2 {
+    font-size: $title-size * 0.85;
+  }
+
+  h3 {
+    font-size: $title-size * 0.65;
+  }
+
+  .block-in-wrapper{
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+    color: $white;
+  }
+
+}
