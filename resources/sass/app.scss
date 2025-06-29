@@ -1,6 +1,9 @@
 @use 'common-styles';
 @use 'block-nav-menu';
 @use 'block-header';
+@use 'block-values';
+
+@use 'bootstrap' as *;
 
 @tailwind base;
 @tailwind components;

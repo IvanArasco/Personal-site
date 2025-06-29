@@ -7,14 +7,17 @@ import MuiAccordion from './components/mui-accordion';
 import Drawer from './components/mui-drawer';
 import MenuDropdown from './components/block-nav-menu';
 import InfoBlock from "./components/block-info";
-import Header from "./components/block-header";
+import BlockHeader from "./components/block-header";
+import BlockValues from "./components/block-values";
 
 function App() {
   return (
     <>
       <MenuDropdown/>
       
-      <Header />
+      <BlockHeader />
+
+      <BlockValues />
 
       <Drawer/>
 

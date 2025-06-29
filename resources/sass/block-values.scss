@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+// Values block
+.block-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .block-value{
+        background-color: $white;
+        height: 100%;
+        width: 100%;
+    }
+}
