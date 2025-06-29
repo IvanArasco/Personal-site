@@ -7,10 +7,10 @@ export default function BlockValues() {
             <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="block-value">
-                        <h2 className="block-title">Programador Web.</h2>
+                        <h2 className="block-title">Programador Web y Multiplataforma</h2>
                         <div className="block-description">
                             <p>
-                            Descripción: Soy programador.
+                            Mi portfolio de proyectos web: <a href="#">  </a>
                             </p>
                         </div>
                     </div>
