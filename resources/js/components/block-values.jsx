@@ -9,28 +9,31 @@ export default function BlockValues() {
                     <div className="block-value">
                         <h2 className="block-title">Programador Web y Multiplataforma</h2>
                         <div className="block-description">
-                            <p>
-                            Mi portfolio de proyectos web: <a href="#">  </a>
+                           <p>
+                            Mi portfolio de proyectos web:{" "}
+                                <a href="https://github.com/IvanArasco" target="_blank">
+                                    https://github.com/IvanArasco
+                                </a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="block-value">
-                        <h2 className="block-title">Programador Web.</h2>
+                        <h2 className="block-title">Conocimientos técnicos</h2>
                         <div className="block-description">
                             <p>
-                            Descripción: Soy programador.
+                            PHP, Java, C#, React, Javascript.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="block-value">
-                        <h2 className="block-title">Programador Web.</h2>
+                        <h2 className="block-title">Hago realidad la web de tus sueños</h2>
                         <div className="block-description">
                             <p>
-                            Descripción: Soy programador.
+                                O eso intento.
                             </p>
                         </div>
                     </div>

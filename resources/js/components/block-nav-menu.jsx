@@ -7,7 +7,7 @@ export default function MenuDropdown() {
         <div className="container mx-auto">
           <div className="logo">
             <a href="#" className="logo-link">
-              <img src="" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web"/>
+            <img src="/images/logo-ivan.png" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web" />
             </a>
           </div>
         <nav className="menu">
@@ -18,11 +18,11 @@ export default function MenuDropdown() {
               <li className="has-dropdown">
                 <a href="#"> Aficiones {<ExpandMoreIcon />} </a>
                   <ul className="dropdown-parent">
-                    <li className="dropdown-child">Relatos</li>
-                    <li className="dropdown-child">Películas / Series</li>
-                    <li className="dropdown-child">Juegos</li>
-                    <li className="dropdown-child">Viajes</li>
-                    <li className="dropdown-child">Música</li>
+                    <li className="dropdown-child"> <a href="#"> Relatos </a></li>
+                    <li className="dropdown-child"> <a href="#"> Películas / Series</a></li>
+                    <li className="dropdown-child"> <a href="#"> Juegos</a></li>
+                    <li className="dropdown-child"> <a href="#"> Viajes</a></li>
+                    <li className="dropdown-child"> <a href="#"> Música</a></li>
                   </ul>
               </li>
               <li>

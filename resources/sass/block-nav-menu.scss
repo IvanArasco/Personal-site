@@ -6,67 +6,73 @@
     justify-content: space-between;
     align-items: center;
 
-    .logo{
-      .logo-link{
-        .logo-img{
-        
-        }
+    .logo {
+      display: flex;
+      align-items: center;
+
+      .logo-link {
+        display: inline-block;
+      }
+
+      .logo-img {
+        height: 100px;
+        width: auto; 
+        max-width: 100%;
+        object-fit: contain;
+        display: block;
       }
     }
 
-  .menu {
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: flex-end;
-      gap: 1rem;
+    .menu {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
 
-      li {
-        position: relative;
-        border-bottom: 4px solid transparent;
-        padding: 8px 16px;
-        display: inline-block;
-        color: black;
-        cursor: pointer;
-        &:active, &:hover{
-          border-bottom-color: #31b1bc;
-          color: #31b1bc;
-        }
-        &.has-dropdown {
-          &:hover .dropdown-parent {
-            display: block;
+        li {
+          position: relative;
+          border-bottom: 4px solid transparent;
+          padding: 8px 16px;
+          cursor: pointer;
+
+          &:active, &:hover{
+            border-bottom-color: #31b1bc;
+            > a{
+              color: #31b1bc;
+            }
           }
-        }
-        a {
-          text-decoration: none;
-        }
-        .dropdown-parent {
-          display: none;
-          position: absolute;
-          top: calc(100% + 4px);
-          left: 0;
-          background-color: $white;
-          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-          padding: 12px 0;
-          border-radius: 0px 0px 4px 4px;
-          z-index: 1;
+          &.has-dropdown {
+            &:hover .dropdown-parent {
+              display: block;
+            }
+          }
+          a {
+            text-decoration: none;
+          }
+          .dropdown-parent {
+            display: none;
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            background-color: $white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 12px 0;
+            border-radius: 0px 0px 4px 4px;
+            z-index: 1;
 
-          .dropdown-child {
-            display: block;
-            padding: 8px 16px;
-            white-space: nowrap;
-            border: 0;          
-
-            &:active{
-                color:#31b1bc;
+            .dropdown-child {
+              display: block;
+              padding: 8px 16px;
+              white-space: nowrap;
+              border: 0;
             }
           }
         }
       }
     }
-  }
   }
 }
   

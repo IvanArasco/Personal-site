@@ -23,4 +23,19 @@ body {
     color: $white;
   }
 
+  li{
+    a{
+      color: black;
+       &:hover{
+      color: #31b1bc;
+     }
+    }
+  }
+
+  a{
+    color: #31b1bc;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
