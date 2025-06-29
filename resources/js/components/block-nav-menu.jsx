@@ -3,7 +3,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function MenuDropdown() {
   return (
-    <header class="header">
+    <header className="header">
       <nav className="menu">
         <div className="container mx-auto">
           <ul>

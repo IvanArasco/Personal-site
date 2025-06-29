@@ -1,8 +1,7 @@
-
+@use 'variables' as *;
 // Header navigation
 .header{
-.menu {
-    padding: 1rem 0;
+  .menu {
     ul {
       list-style: none;
       margin: 0;
@@ -13,39 +12,42 @@
 
       li {
         position: relative;
-
-        a {
-          text-decoration: none;
-          padding: 8px 12px;
-          display: inline-block;
-          color: black;
+        border-bottom: 4px solid transparent;
+        padding: 8px 16px;
+        display: inline-block;
+        color: black;
+        cursor: pointer;
+        &:active, &:hover{
+          border-bottom-color: #31b1bc;
+          color: #31b1bc;
         }
-
         &.has-dropdown {
           &:hover .dropdown-parent {
             display: block;
           }
         }
-
+        a {
+          text-decoration: none;
+        }
         .dropdown-parent {
           display: none;
           position: absolute;
-          top: 100%;
+          top: calc(100% + 4px);
           left: 0;
-          background-color: #f9f9f9;
-          min-width: 160px;
+          background-color: $white;
           box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
           padding: 12px 0;
           border-radius: 0px 0px 4px 4px;
           z-index: 1;
 
           .dropdown-child {
+            display: block;
             padding: 8px 16px;
             white-space: nowrap;
-            cursor: pointer;
+            border: 0;          
 
-            &:hover {
-              background-color: #eee;
+            &:active{
+                color:#31b1bc;
             }
           }
         }
