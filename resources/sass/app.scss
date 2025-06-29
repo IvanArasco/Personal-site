@@ -1,7 +1,6 @@
-@use 'variables' as *;
-@use 'common_styles';
-@use 'navigation';
-@use 'header';
+@use 'common-styles';
+@use 'block-nav-menu';
+@use 'block-header';
 
 @tailwind base;
 @tailwind components;

@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../sass/app.scss';
 
-import MuiButton from './components/MUIButton';
-import MuiAccordion from './components/muiAccordion';
-import Drawer from './components/muiDrawer';
-import MenuDropdown from './components/nav-menu-dropdown';
-import InfoBlock from "./components/InfoBlock";
-import Header from "./components/header";
+import MuiButton from './components/mui-button';
+import MuiAccordion from './components/mui-accordion';
+import Drawer from './components/mui-drawer';
+import MenuDropdown from './components/block-nav-menu';
+import InfoBlock from "./components/block-info";
+import Header from "./components/block-header";
 
 function App() {
   return (
