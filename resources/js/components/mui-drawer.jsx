@@ -40,11 +40,13 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div>
-      <Button onClick={toggleDrawer(true)}>ABRIR CORREO (SIDEBAR)</Button>
-      <Drawer open={open} onClose={toggleDrawer(false)}>
-        {DrawerList}
-      </Drawer>
+    <div className="block-sidebar">
+      <div className="container mx-auto">
+        <Button onClick={toggleDrawer(true)}> ABRIR CORREO (SIDEBAR) </Button>
+        <Drawer open={open} onClose={toggleDrawer(false)}>
+          {DrawerList}
+        </Drawer>
+      </div>
     </div>
   );
 }

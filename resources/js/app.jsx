@@ -1,14 +1,13 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../sass/app.scss';
 
-import MuiButton from './components/mui-button';
-import MuiAccordion from './components/mui-accordion';
-import Drawer from './components/mui-drawer';
 import BlockHeader from "./components/block-header";
 import MenuDropdown from './components/block-nav-menu';
 import BlockValues from "./components/block-values";
 import BlockFooter from "./components/block-footer";
+import MuiAccordion from './components/mui-accordion';
+import CardImageContent from "./components/mui-card";
+import Drawer from './components/mui-drawer';
 
 const values = [
     {
@@ -37,20 +36,22 @@ function App() {
     <>
       <MenuDropdown/>
       
-      <BlockHeader />
+      <BlockHeader title="Mi sitio personal" content="Es un portfolio autobiográfico desarrollado en Laravel y React con la librería Material."/>
 
       <BlockValues values={values} />
 
       <Drawer/>
 
-      <MuiAccordion accordionTitle="Primer acordeón" content="Es un portfolio autobiográfico hecho con Laravel y React con la librería Material." />
+      <CardImageContent title="Mi sitio personal" content="Mi sitio personal"/>
+
+      <CardImageContent title="Mi sitio personal 2" content="Mi sitio personal 2"/>
+
+      <MuiAccordion accordionTitle="Primer acordeón" content="Portfolio autobiográfico desarrollado con Laravel y React con la librería Material." />
 
       <MuiAccordion accordionTitle="Segundo acordeón" content="Este es el segundo acordeón, expandido por defecto y con botones." 
         buttonTitleOne="Aceptar" buttonTitleTwo="Cancelar" expanded hasButtons/>
 
-      <MuiButton title="Púlsame"/>
-
-      <BlockFooter />
+      <BlockFooter title="Footer - 2025 Iván Arasco"/>
 
     </>
   );
