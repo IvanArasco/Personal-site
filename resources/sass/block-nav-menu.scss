@@ -45,10 +45,10 @@
               display: block;
             }
             
-          &:active, &:hover{
-            border-bottom-color: transparent;
+            &:active, &:hover{ // hide <li> dropdown bottom border and show it over the dropdown box
+              border-bottom-color: transparent;
+            }
           }
-        }
           a {
             text-decoration: none;
           }

@@ -1,3 +1,4 @@
+@use 'variables' as *;
 
 // Header (background image)
 .block-header {
@@ -16,5 +17,11 @@
     top: 0;
     position: absolute;
     background: rgba(0, 0, 0, .5);
+  }
+  h1.block-title{
+    color: $white;
+  }
+  .block-description{
+     color: $white;
   }
 }
