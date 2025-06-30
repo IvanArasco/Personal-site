@@ -15,11 +15,7 @@
       }
 
       .logo-img {
-        height: 100px;
-        width: auto; 
-        max-width: 100%;
-        object-fit: contain;
-        display: block;
+        height: 80px;
       }
     }
 
@@ -35,7 +31,7 @@
         li {
           position: relative;
           border-bottom: 4px solid transparent;
-          padding: 8px 16px;
+          padding: 2rem 1rem;
           cursor: pointer;
 
           &:active, &:hover{
@@ -48,18 +44,23 @@
             &:hover .dropdown-parent {
               display: block;
             }
+            
+          &:active, &:hover{
+            border-bottom-color: transparent;
           }
+        }
           a {
             text-decoration: none;
           }
           .dropdown-parent {
             display: none;
             position: absolute;
-            top: calc(100% + 4px);
+            top: 100%;
             left: 0;
             background-color: $white;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             padding: 12px 0;
+            border-top: 4px solid #31b1bc;
             border-radius: 0px 0px 4px 4px;
             z-index: 1;
 

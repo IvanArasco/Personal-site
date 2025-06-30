@@ -7,7 +7,7 @@ export default function MenuDropdown() {
         <div className="container mx-auto">
           <div className="logo">
             <a href="#" className="logo-link">
-            <img src="/images/logo-ivan.png" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web" />
+            <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web" />
             </a>
           </div>
         <nav className="menu">
