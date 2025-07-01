@@ -8,27 +8,25 @@ import Button from '@mui/material/Button';
 export default function CardImageContent({title, content, image, url}) {
   return (
       <div className="block-card">
-        <div className="container mx-auto">
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={image}
-              alt={title}
-            />
-            <CardContent>
-              <div className="block-in-wrapper">
-                <h1 className="block-title">{title}</h1>
-                <div className="block-description">
-                    <p> {content}</p>
-                </div>
+        <Card className="card">
+          <CardMedia
+            component="img"
+            height="140"
+            image={image}
+            alt={title}
+          />
+          <CardContent className="cardContent">
+            <div className="block-in-wrapper">
+              <h1 className="block-title">{title}</h1>
+              <div className="block-description">
+                  <p> {content}</p>
               </div>
-            </CardContent>
-            <CardActions>
-              <Button size="small" href={url}>Saber más</Button>
-            </CardActions>
-            </Card>
-        </div>
+            </div>
+          </CardContent>
+          <CardActions>
+            <Button size="small" href={url}>Saber más</Button>
+          </CardActions>
+          </Card>
       </div>
     
   );

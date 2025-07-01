@@ -4,9 +4,9 @@ import '../sass/app.scss';
 import BlockHeader from "./components/block-header";
 import MenuDropdown from './components/block-nav-menu';
 import BlockValues from "./components/block-values";
+import RandomCards from "./components/block-random-cards";
 import BlockFooter from "./components/block-footer";
 import MuiAccordion from './components/mui-accordion';
-import CardImageContent from "./components/mui-card";
 import Drawer from './components/mui-drawer';
 
 const values = [
@@ -40,11 +40,9 @@ function App() {
 
       <BlockValues values={values} />
 
+      <RandomCards/>
+
       <Drawer/>
-
-      <CardImageContent title="Mi sitio personal" content="Mi sitio personal"/>
-
-      <CardImageContent title="Mi sitio personal 2" content="Mi sitio personal 2"/>
 
       <MuiAccordion accordionTitle="Primer acordeón" content="Portfolio autobiográfico desarrollado con Laravel y React con la librería Material." />
 

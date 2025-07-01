@@ -13,15 +13,22 @@ export default function RandomCards() {
 
   return (
     <>
-      {items.map((item, index) => (
-        <CardImageContent
-          key={index}
-          title={item.title}
-          content={item.description}
-          image={item.image}
-          url={item.url}
-        />
-      ))}
+    <div className="block-random-cards">
+      <div className="container">
+        <div className="row">
+          {items.map((item, index) => (
+            <div key={index} className="col-lg-4 col-md-12 col-sm-12">
+              <CardImageContent
+                title={item.title}
+                content={item.description}
+                image={item.image}
+                url={item.url}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
     </>
   );
 }

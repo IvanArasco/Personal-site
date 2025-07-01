@@ -1,0 +1,16 @@
+.block-random-cards{
+    padding: 2rem 0;
+    .block-card{
+        height: 100%;
+        .card{
+            height: 100%;
+            img{
+                height: 200px;
+            }
+
+            .cardContent{
+                min-height: 150px;
+            }
+        }
+    }
+}

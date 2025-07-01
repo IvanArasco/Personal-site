@@ -35,5 +35,5 @@ Route::get('/dynamic-content', function () {
         ],
     ];
 
-    return response()->json(collect($content)->random(2)->values());
+    return response()->json(collect($content)->random(3)->values());
 });
