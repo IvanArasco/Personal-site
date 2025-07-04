@@ -1,57 +1,30 @@
 import ReactDOM from 'react-dom/client';
-import '../sass/app.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import BlockHeader from "./components/block-header";
-import MenuDropdown from './components/block-nav-menu';
-import BlockValues from "./components/block-values";
-import RandomCards from "./components/block-random-cards";
-import BlockFooter from "./components/block-footer";
-import MuiAccordion from './components/mui-accordion';
-import Drawer from './components/mui-drawer';
+import MenuDropdown from './components/Block-nav-menu';
+import BlockFooter from './components/Block-footer';
 
-const values = [
-    {
-      title: 'Programador Web y Multiplataforma',
-      description: (
-        <>
-          Mi portfolio de proyectos web:{' '}
-          <a href="https://github.com/IvanArasco" target="_blank" rel="noopener noreferrer">
-            https://github.com/IvanArasco
-          </a>
-        </>
-      ),
-    },
-    {
-      title: 'Conocimientos técnicos',
-      description: 'PHP, Java, C#, React, Javascript.',
-    },
-    {
-      title: 'Hago realidad la web de tus sueños',
-      description: 'O eso intento.',
-    },
-  ];
+import Home from './pages/Home';
+import Music from './pages/Music';
+import Journeys from './pages/Journey';
+import Cinema from './pages/Cinema';
+import Books from './pages/Book';
 
 function App() {
   return (
-    <>
-      <MenuDropdown/>
-      
-      <BlockHeader title="Mi sitio personal" content="Es un portfolio autobiográfico desarrollado en Laravel y React con la librería Material."/>
 
-      <BlockValues values={values} />
-
-      <RandomCards/>
-
-      <Drawer/>
-
-      <MuiAccordion accordionTitle="Primer acordeón" content="Portfolio autobiográfico desarrollado con Laravel y React con la librería Material." />
-
-      <MuiAccordion accordionTitle="Segundo acordeón" content="Este es el segundo acordeón, expandido por defecto y con botones." 
-        buttonTitleOne="Aceptar" buttonTitleTwo="Cancelar" expanded hasButtons/>
-
+    <Router>
+      <MenuDropdown />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/journeys" element={<Journeys />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/cinema" element={<Cinema />} />
+      </Routes>
       <BlockFooter title="Footer - 2025 Iván Arasco"/>
+    </Router>
 
-    </>
   );
 }
 
