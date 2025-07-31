@@ -1,8 +1,12 @@
+
+import '../../sass/app.scss';
+
+import BlockHeader from ".././components/Block-header";
+
 export default function Journey() {
   return (
-    <div className="p-4">
-      <h1>Viajes</h1>
-      <p>Contenido sobre mis viajes.</p>
-    </div>
+    <>
+    <BlockHeader title="Mi sitio personal" content="Contenido sobre mis viajes más destacables"/>
+    </>
   );
 }

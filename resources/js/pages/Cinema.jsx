@@ -1,8 +1,12 @@
+
+import '../../sass/app.scss';
+
+import BlockHeader from ".././components/Block-header";
+
 export default function Cinema() {
   return (
-    <div className="p-4">
-      <h1>Cine</h1>
-      <p>Contenido sobre cine.</p>
-    </div>
+    <>
+    <BlockHeader title="Mi sitio personal" content="Contenido sobre películas y series destacables que he visto"/>
+    </>
   );
 }

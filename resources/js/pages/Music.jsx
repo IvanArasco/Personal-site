@@ -1,9 +1,12 @@
 
+import '../../sass/app.scss';
+
+import BlockHeader from ".././components/Block-header";
+
 export default function Music() {
   return (
-    <div className="p-4">
-      <h1>Música</h1>
-      <p>Contenido musical aquí.</p>
-    </div>
+    <>
+    <BlockHeader title="Mi sitio personal" content="Contenido sobre mi música favorita"/>
+    </>
   );
 }

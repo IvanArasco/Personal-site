@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export default function MenuDropdown() {
   return (
     <header className="header">
-        <div className="container mx-auto">
+        <div className="container">
           <div className="logo">
             <a href="#" className="logo-link">
             <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web" />
@@ -18,11 +18,11 @@ export default function MenuDropdown() {
               <li className="has-dropdown">
                 <a href="#"> Aficiones {<ExpandMoreIcon />} </a>
                   <ul className="dropdown-parent">
-                    <li className="dropdown-child"> <a href="#"> Relatos </a></li>
-                    <li className="dropdown-child"> <a href="#"> Películas / Series</a></li>
-                    <li className="dropdown-child"> <a href="#"> Juegos</a></li>
-                    <li className="dropdown-child"> <a href="#"> Viajes</a></li>
-                    <li className="dropdown-child"> <a href="#"> Música</a></li>
+                    <li className="dropdown-child"> <a href="/books"> Relatos </a></li>
+                    <li className="dropdown-child"> <a href="/cinema"> Películas / Series</a></li>
+                    <li className="dropdown-child"> <a href="/games"> Juegos</a></li>
+                    <li className="dropdown-child"> <a href="/journeys"> Viajes</a></li>
+                    <li className="dropdown-child"> <a href="/music"> Música</a></li>
                   </ul>
               </li>
               <li>
