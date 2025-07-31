@@ -24,7 +24,7 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/cinema" element={<Cinema />} />
       </Routes>
-      <BlockFooter title="Footer - 2025 Iván Arasco"/>
+      <BlockFooter title="Footer - 2025 Iván Arasco Millán"/>
     </Router>
 
   );

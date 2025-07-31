@@ -6,14 +6,14 @@ export default function MenuDropdown() {
     <header className="header">
         <div className="container">
           <div className="logo">
-            <a href="#" className="logo-link">
-            <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo Ivan Arasco Desarrollador Web" />
+            <a href="/" className="logo-link">
+            <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo con el nombre de Ivan Arasco y debajo Desarrollador Web" />
             </a>
           </div>
         <nav className="menu">
             <ul>
               <li>
-                <a href="#"> Mi CV </a>
+                <a href="/cv"> Mi CV </a>
               </li>
               <li className="has-dropdown">
                 <a href="#"> Aficiones {<ExpandMoreIcon />} </a>
@@ -26,7 +26,7 @@ export default function MenuDropdown() {
                   </ul>
               </li>
               <li>
-                <a href="#"> Sobre Mi </a>
+                <a href="/about"> Sobre Mi </a>
               </li>
             </ul>
         </nav>

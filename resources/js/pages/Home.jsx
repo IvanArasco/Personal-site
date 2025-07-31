@@ -38,6 +38,8 @@ export default function Home() {
 
         <RandomCards/>
 
+        <h2> Cosas test: </h2>
+        
         <Drawer/>
 
         <MuiAccordion accordionTitle="Primer acordeón" content="Portfolio autobiográfico desarrollado con Laravel y React con la librería Material." />
