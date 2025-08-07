@@ -8,7 +8,7 @@ export default function TitlebarImageList() {
     <div className="block-gallery">
         <div className="container">
            {/* <div className="row">*/ }
-                <ImageList className="galleryList" sx={{}} cols={3}>
+                <ImageList className="galleryList" cols={3}>
                     {itemData.map((image) => (
                         <ImageListItem key={image.img}>
                         <img
