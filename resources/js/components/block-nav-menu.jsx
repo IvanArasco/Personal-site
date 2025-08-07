@@ -4,12 +4,12 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export default function MenuDropdown() {
   return (
     <header className="header">
-        <div className="container">
-          <div className="logo">
-            <a href="/" className="logo-link">
-            <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo con el nombre de Ivan Arasco y debajo Desarrollador Web" />
-            </a>
-          </div>
+      <div className="container">
+        <div className="logo">
+          <a href="/" className="logo-link">
+          <img src="/images/logo-ivan.webp" className="logo-img" alt="Logo Ivan Arasco y, bajo el nombre, Desarrollador Web" />
+          </a>
+        </div>
         <nav className="menu">
             <ul>
               <li>
