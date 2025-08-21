@@ -1,7 +1,7 @@
 
 import '../../sass/app.scss';
 
-import BlockHeader from ".././components/Block-header";
+import BlockHeader from "../components/Block-header";
 
 export default function Game() {
   return (

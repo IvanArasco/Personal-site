@@ -1,11 +1,11 @@
 
 import '../../sass/app.scss';
 
-import BlockHeader from ".././components/Block-header";
-import BlockValues from ".././components/Block-values";
-import RandomCards from ".././components/Block-random-cards";
-import MuiAccordion from '.././components/Mui-accordion';
-import Drawer from '.././components/Mui-drawer';
+import BlockHeader from "../components/Block-header";
+import BlockValues from "../components/Block-values";
+import RandomCards from "../components/Block-random-cards";
+import MuiAccordion from '../components/Mui-accordion';
+import Drawer from '../components/Mui-drawer';
 
 const values = [
   {
