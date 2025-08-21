@@ -17,7 +17,7 @@ export default function CardImageContent({title, content, image, url}) {
           />
           <CardContent className="cardContent">
             <div className="block-in-wrapper">
-              <h1 className="block-title">{title}</h1>
+              <h2 className="block-title">{title}</h2>
               <div className="block-description">
                   <p> {content}</p>
               </div>

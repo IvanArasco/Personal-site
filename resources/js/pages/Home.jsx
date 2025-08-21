@@ -32,7 +32,7 @@ const values = [
 export default function Home() {
   return (
     <>
-        <BlockHeader title="Mi sitio personal" content="Es un portfolio autobiográfico desarrollado en Laravel y React con la librería Material."/>
+        <BlockHeader title="Mi sitio personal" content="Bienvenidos/as a mi portfolio autobiográfico desarrollado en Laravel y React con la librería Material."/>
 
         <BlockValues values={values} />
 

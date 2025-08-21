@@ -9,17 +9,21 @@ body {
   }
 
   h2 {
-    font-size: $title-size * 0.85;
+    font-size: $title-size * 0.5;
   }
 
   h3 {
-    font-size: $title-size * 0.65;
+    font-size: $title-size * 0.35;
   }
 
   .block-in-wrapper{
     max-width: 600px;
     position: relative;
     z-index: 1;
+  }
+
+  .block-description{
+    font-size: $font-size;
   }
 
   li{
