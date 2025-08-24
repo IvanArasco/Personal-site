@@ -13,7 +13,7 @@ export default function RandomCards() {
 
   return (
     <>
-    <div className="block-random-cards">
+    <div className="block-wrapper block-random-cards">
       <div className="container">
         <div className="row">
           {items.map((item, index) => (

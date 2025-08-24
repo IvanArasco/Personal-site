@@ -12,7 +12,7 @@ Route::get('/dynamic-content', function () {
         [
             'title' => 'Viajes',
             'image' => '/images/background.webp',
-            'description' => 'Explora los viajes que he hecho por media España, especialmente en la costa Mediterránea.',
+            'description' => 'Explora los viajes que he hecho, especialmente en la costa Mediterránea.',
             'url' => '/journeys',
         ],
         [
@@ -24,14 +24,8 @@ Route::get('/dynamic-content', function () {
         [
             'title' => 'Películas y series',
             'image' => '/images/cinema-red-background.webp',
-            'description' => 'He visto muchos tipos de series y películas, te traigo unas recomendaciones que, si no has visto, te encantarán.',
+            'description' => 'He visto muchos tipos de series y películas. Te traigo unas recomendaciones que, si no has visto, te encantarán.',
             'url' => '/cinema',
-        ],
-           [
-            'title' => 'Relatos',
-            'image' => '/images/quill-pen-old-book.webp',
-            'description' => 'Algunos ratos libres dejo fluir mi creatividad.',
-            'url' => '/books',
         ],
     ];
 

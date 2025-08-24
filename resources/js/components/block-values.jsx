@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BlockValues({ values = [] }) {
   return (
-    <div className="block-values">
+    <div className="block-wrapper block-values">
       <div className="container mx-auto">
         <div className="row">
           {values.map((value, index) => (
@@ -18,5 +18,5 @@ export default function BlockValues({ values = [] }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

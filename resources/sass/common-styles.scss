@@ -4,6 +4,10 @@ body {
   font-size: $font-size;
   font-family: $font-family-primary;
 
+  .block-wrapper{
+    padding: 2rem 0;
+  }
+
   h1 {
     font-size: $title-size;
   }
@@ -35,7 +39,7 @@ body {
     }
   }
 
-  a{
+  a {
     color: #31b1bc;
     &:hover{
       text-decoration: underline;

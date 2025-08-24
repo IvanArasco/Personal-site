@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BlockFooter({title, content}) {
   return (
-    <footer className="block-footer">
+    <footer className="block-wrapper block-footer">
         <div className="container mx-auto">
             <div className="block-in-wrapper">
                 <h2 className="block-title">{title}</h2>

@@ -1,4 +1,3 @@
-
 export const dataSet = [
   {
     img: 'images/portugal/beach-portugal.webp',
@@ -44,10 +43,5 @@ export const dataSet = [
     img: 'images/portugal/old-pottery-factory.webp',
     title: 'Antigua fábrica de cerámica',
     place: 'Portugal',
-  },
-  {
-    img: 'images/portugal/old-pottery-factory.webp',
-    title: 'Prueba Cataluña',
-    place: 'Cataluña',
   },
 ];

@@ -16,7 +16,8 @@ export default function MuiAccordion({
   hasButtons=false 
 }) {
   return (
-    <div>
+    <div className="block-wrapper block-accordion">
+      <div className="container">
       <Accordion defaultExpanded={expanded}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -35,6 +36,7 @@ export default function MuiAccordion({
         </AccordionActions>
       )}
       </Accordion>
+      </div>
     </div>
   );
 }

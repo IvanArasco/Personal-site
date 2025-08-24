@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 export default function CardImageContent({title, content, image, url}) {
   return (
-      <div className="block-card">
+      <div className="block-wrapper block-card">
         <Card className="card">
           <CardMedia
             component="img"

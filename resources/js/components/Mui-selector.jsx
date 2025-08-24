@@ -7,7 +7,7 @@ import Select from '@mui/material/Select';
 
 export default function MuiSelect({ places, selectedPlace, onChange }) {
   return (
-    <Box className="selector">
+    <Box className="block-wrapper block-selector">
       <FormControl fullWidth>
         <InputLabel id="select-place-label" shrink>Lugar</InputLabel>
         <Select
