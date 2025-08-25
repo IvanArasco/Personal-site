@@ -44,4 +44,64 @@ export const dataSet = [
     title: 'Antigua fábrica de cerámica',
     place: 'Portugal',
   },
+  {
+    img: 'images/malaga/bishop-palace.jpg',
+    title: 'Palacio Episcopal',
+    place: 'Málaga',
+  },
+  {
+    img: 'images/malaga/amphitheatre.jpg',
+    title: 'Anfiteatro',
+    place: 'Málaga',
+  },
+  {
+    img: 'images/malaga/cathedral-front.jpg',
+    title: 'Catedral',
+    place: 'Málaga',
+  },
+  {
+    img: 'images/malaga/cathedral-gardens.jpg',
+    title: 'Jardines de la Catedral',
+    place: 'Málaga',
+  },
+  {
+    img: 'images/cataluña/arc-triumph.jpg',
+    title: 'Arco del Triunfo de Barcelona',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/buildings-cadaques.jpg',
+    title: 'Edificios de Cadaqués',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/street-rosebush-cadaques.jpg',
+    title: 'Paseo con rosal de Cadaqués',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/cadaques-coast.jpg',
+    title: 'Costa de Cadaqués',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/water-cadaques.jpg',
+    title: 'Agua',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/house-cadaques.jpg',
+    title: 'Una bonita casa de Cadaqués',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/natural-park-st-llorenc-landscape.jpg',
+    title: 'Paisaje del Parque Natural de Sant Llorenç',
+    place: 'Cataluña',
+  },
+  {
+    img: 'images/cataluña/natural-park-st-llorenc.jpg',
+    title: 'Cabeza de piedra',
+    place: 'Cataluña',
+  },
 ];
