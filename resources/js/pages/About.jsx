@@ -12,7 +12,7 @@ export default function About() {
       <BlockHeader bgImage="images/leaf02.webp" title="Sobre Mi"/>
 
       <PlainText title="Editores de videojuegos" content=
-      "Mis inicios en el mundo de la programación fueron con los editores de videojuegos como Warcraft o Imperium. La imagen adjunta debajo muestra la interfaz del editor del primero (está pensado para ser amigable con quienes no se dedican a la programación):"
+      "Mis inicios en el mundo de la programación fueron con los editores de videojuegos como Warcraft o Imperium. La imagen asociada muestra la interfaz del editor del primero (está pensado para ser amigable con quienes no se dedican a la programación):"
       imagedata={{ src: "images/warcraft-editor.png", title: "Imagen del editor de detonadores de Warcraft" }}/>
 
       <PlainText title="Arduino" content="Un día apareció en mi feed de YouTube algo llamado 'Arduino'. Juntar la electrónica y la programación me pareció muy interesante, y por ello compré el starter kit. Creé un pequeño ventilador con un servo-motor, hice un semáforo con leds y alguna cosa más."  imagedata={{ src: "images/arduino-starter-kit.webp", title: "Starter Kit Arduino" }}/>
@@ -24,13 +24,9 @@ export default function About() {
         {
           <p>
           Puedes encontrar mi currículum aquí:{" "}
-          <a 
-            href="/cv/iam_cv.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            Mi CV
-          </a>
+            <a href="/cv/iam_cv.pdf" target="_blank" rel="noopener noreferrer">
+              Mi CV
+            </a>
           </p>
         }
        />

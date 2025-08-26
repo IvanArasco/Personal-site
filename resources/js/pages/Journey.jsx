@@ -20,7 +20,7 @@ export default function Journey() {
 
   return (
     <>
-      <BlockHeader title="Viajes" content="Contenido sobre mis viajes más destacables"/>
+      <BlockHeader title="Viajes" content="Algunos de mis viajes más destacables..."/>
 
       <Selector places={places} 
         selectedPlace={selectedPlace} 

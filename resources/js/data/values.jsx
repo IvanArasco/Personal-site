@@ -10,8 +10,8 @@ export const values = [
     title: 'Conocimientos técnicos:',
     description: 'PHP, Java, C#, React, Javascript.',
   },
-  {
-    title: 'Particulares y pequeña/mediana empresa:',
-    description: 'Museos, terapeutas, asociaciones benéficas, consultoras...',
+  { 
+    title: 'Particulares y PYMES:',
+    description: 'Museos, terapeutas, asociaciones benéficas, consultoras, e-commerce...',
   },
 ];

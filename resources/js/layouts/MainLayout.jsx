@@ -9,7 +9,7 @@ export default function MainLayout() {
       <main>
         <Outlet />
       </main>
-      <BlockFooter title="Footer - 2025 Iván Arasco Millán" />
+      <BlockFooter title="&copy; Footer - 2025 Iván Arasco Millán" />
     </>
   );
 }

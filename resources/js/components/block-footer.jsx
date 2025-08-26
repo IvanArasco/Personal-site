@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
 export default function BlockFooter({title, content}) {
   return (
@@ -9,6 +10,7 @@ export default function BlockFooter({title, content}) {
                 <div className="block-description">
                     <p>{content}</p>
                 </div>
+             <Button variant="contained" component="a" href="/about" rel="noopener noreferrer"> Conóceme </Button>
             </div>
         </div>
     </footer>

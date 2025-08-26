@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.music-item{
+    .block-description{
+        max-width: 600px;
+    }
+
+    iframe{
+        margin-top: 1rem;
+        width: 400px;
+        height: 400px;
+    }
+}
