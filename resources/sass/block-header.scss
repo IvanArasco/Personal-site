@@ -18,11 +18,16 @@
     background: rgba(0, 0, 0, .5);
   }
 
-  h1.block-title{
-    color: $white;
-  }
-  .block-description{
-     color: $white;
-     font-size: 1.75rem;
+  .block-in-wrapper{
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+    h1.block-title{
+      color: $white;
+    }
+    .block-description{
+      color: $white;
+      font-size: 1.75rem;
+    }
   }
 }

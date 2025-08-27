@@ -10,6 +10,7 @@ body {
 
   h1,h2,h3{
     margin-bottom: 1rem;
+    font-weight: 600;
   }
   
   h1 {
@@ -26,9 +27,7 @@ body {
 
 
   .block-in-wrapper{
-    max-width: 800px;
-    position: relative;
-    z-index: 1;
+
   }
 
   .block-description{

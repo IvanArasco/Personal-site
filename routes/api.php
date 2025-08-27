@@ -12,13 +12,13 @@ Route::get('/dynamic-content', function () {
         [
             'title' => 'Viajes',
             'image' => '/images/background.webp',
-            'description' => 'Explora los viajes que he hecho, especialmente en la costa Mediterránea.',
+            'description' => 'Explora los viajes que he hecho.',
             'url' => '/journeys',
         ],
         [
             'title' => 'Música',
             'image' => '/images/electric-guitar-neon.webp',
-            'description' => 'Me gustan sobre todo los géneros electrónicos y relacionados con el Metal.',
+            'description' => 'Me gusta el Rap, el Rock, el Metal (y derivados), las que son de estilo synthwave, electrónicas...',
             'url' => '/music',
         ],
         [

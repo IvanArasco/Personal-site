@@ -1,31 +1,30 @@
 
 .block-wrapper{
     &.block-plaintext{
+        
         padding: 0;
         display:flex;
         flex-wrap: wrap;
-        max-width: 980px;
-        margin: 2rem auto;
-        .block-in-wrapper{
+        margin: 2rem 0;
+        .container{
+            max-width: 1024px;
+            .block-in-wrapper{
             box-shadow: 2px 2px 19px 0 rgba(0, 0, 0, 0.12);
             border-radius: 8px;
+ 
             .block-text-wrapper{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 2rem;
+                padding: 2rem 3rem;
             }
             .block-description{
-                max-width: 650px;
-                //text-align: justify;
             }
             .block-image-wrapper{
+
                 img{
-                    min-height: 100%;
-                    object-fit: cover;
+                    max-height: 500px;
                     border-radius: 0 8px 8px 0;
                 }
             }
+        }
         }
     }
 }
