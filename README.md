@@ -8,8 +8,11 @@ Proyecto realizado con Laravel y React apoyándome de la librería MaterialUI (e
 # Imágenes del proyecto
 
 ![Heading](./public/images/preview/heading.png)
+---
 ![Menu](./public/images/preview/menu.png)
+---
 ![Filter-Journeys](./public/images/preview/filter-journeys.png)
+---
 ![Body-Footer](./public/images/preview/body-footer.png)
 
 
